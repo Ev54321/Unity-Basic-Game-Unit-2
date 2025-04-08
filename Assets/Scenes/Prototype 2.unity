@@ -555,7 +555,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 0
+  orthographic: 1
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -767,6 +767,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a900bc028d5713a41a16e9dc76d5f745, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1362859610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1362859612}
+  - component: {fileID: 1362859611}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1362859611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362859610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e61a5c64a74ff344ae4aec4f5a21ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalPrefabs:
+  - {fileID: 1953301267162125810, guid: 0ef894e390ffabe45b242e9bdbb5a730, type: 3}
+  - {fileID: 5238002193096659060, guid: bafb68e7af729744db8a3aa728d160ba, type: 3}
+  - {fileID: 4015591367888100819, guid: 1d80f0551c6596648a7602c2f7e5579c, type: 3}
+  - {fileID: 1132141578641617923, guid: a34b7cc215f680b48a26ce3bc2983f8d, type: 3}
+--- !u!4 &1362859612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362859610}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.6231027, y: 8.907376, z: -1.4693308}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1539417190 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5238002193096659060, guid: bafb68e7af729744db8a3aa728d160ba, type: 3}
@@ -1201,3 +1250,4 @@ SceneRoots:
   - {fileID: 4284473515282709083}
   - {fileID: 4678212492395753678}
   - {fileID: 8772373611882896476}
+  - {fileID: 1362859612}

@@ -397,6 +397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4755530045649775103}
   - component: {fileID: 182918827422155532}
+  - component: {fileID: 3448099429834916290}
   m_Layer: 0
   m_Name: SA_Animals_Cow_White
   m_TagString: Untagged
@@ -519,6 +520,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: -7.0392914, z: 19.432642}
     m_Extent: {x: 5.5862083, y: 16.289497, z: 24.204412}
   m_DirtyAABB: 0
+--- !u!65 &3448099429834916290
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701402021656011347}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 11.172415, y: 32.57899, z: 48.40882}
+  m_Center: {x: 0, y: 16.289469, z: 0.29143524}
 --- !u!1 &1800933757320261305
 GameObject:
   m_ObjectHideFlags: 0
@@ -985,6 +1007,9 @@ GameObject:
   - component: {fileID: 769203807573696650}
   - component: {fileID: 416530784505419213}
   - component: {fileID: 4969827278476102023}
+  - component: {fileID: 6400706722654804250}
+  - component: {fileID: 4570042489615660703}
+  - component: {fileID: 1722843277727145271}
   m_Layer: 0
   m_Name: Animal_Cow_White
   m_TagString: Untagged
@@ -1053,6 +1078,51 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a900bc028d5713a41a16e9dc76d5f745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &6400706722654804250
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4015591367888100819}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 11.400272, y: 33.233173, z: 64.677895}
+  m_Center: {x: -0.35966635, y: 15.685199, z: 7.0901866}
+--- !u!114 &4570042489615660703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4015591367888100819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a900bc028d5713a41a16e9dc76d5f745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1722843277727145271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4015591367888100819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 190bf5c56512e01489734cd496328598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4112747954943713145
